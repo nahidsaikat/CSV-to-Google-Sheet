@@ -1,9 +1,14 @@
 # CSV-to-Google-Sheet
 
-### Install Dependencies
-> pip install gspread
+### Check out the repository
+> git clone https://github.com/nahidsaikat/CSV-to-Google-Sheet.git
 >
-> pip install oauth2client
+> cd CSV-to-Google-Sheet
+
+### Prepare environment
+> pipenv install --python 3.8
+>
+> pipenv shell
 
 ### Run the Script
 > python upload.py
